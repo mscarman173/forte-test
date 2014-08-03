@@ -26,5 +26,11 @@ namespace ForteTest.Controllers
 
             return View();
         }
+
+        public ActionResult Sample()
+        {
+            ViewBag.Message = "Your sample page.";
+            return View();
+        }
     }
 }
